@@ -1,0 +1,1 @@
+import 'package:flutter/material.dart';import 'custom/player.dart';class Task extends StatelessWidget {  var cameras;  Task(this.cameras);  @override  Widget build(BuildContext context) {    return Scaffold(body: Player(cameras));  }}
